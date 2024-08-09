@@ -8,4 +8,4 @@ git branch -M master &&
 git remote add origin git@github.com:YBFJ/MJ-UI.git &&
 git push -f -u origin master &&
 cd -
-# echo https://frankfang.gitee.io/gulu-ui-website-1/
+echo https://ybfj.github.io/MJ-UI/

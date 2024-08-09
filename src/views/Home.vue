@@ -3,7 +3,7 @@
     <div class="topnavAndBanner">
       <Topnav />
       <div class="banner">
-        <h1>轱辘UI</h1>
+        <h1>MJ UI</h1>
         <h2>一个面向学习者的 UI 框架</h2>
         <p class="actions">
           <a href="https://github.com">GitHub</a>
@@ -18,7 +18,7 @@
             <use xlink:href="#icon-Vue"></use>
           </svg>
           <h3>基于 Vue 3</h3>
-          <p>骄傲地使用了 Vue 3 Composition API</p>
+          <p>使用了 Vue 3 Composition API</p>
         </li>
         <li>
           <svg>
@@ -93,7 +93,6 @@
   
   .features {
     margin: 64px auto;
-    padding: 0 16px;
   
     @media (min-width: 800px) {
       width: 800px;

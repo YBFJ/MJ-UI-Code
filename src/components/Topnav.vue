@@ -1,11 +1,13 @@
 <template>
   <div class="topnav">
-    <svg class="logo">
+    <router-link to="/" class="logo">
+    <svg class="icon">
       <use xlink:href="#icon-UI"></use>
     </svg>
+  </router-link>
+  
     <ul class="menu">
-      <li>文档</li>
-      <li>关于</li>
+      <li><router-link to="/doc">文档</router-link></li>
     </ul>
     <svg v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggleMenu">
       <use xlink:href="#icon-menu"></use>
@@ -50,10 +52,14 @@
     align-items: center;
   
     >.logo {
-      margin-right: auto;
+    max-width: 6em;
+    margin-right: auto;
+
+    >svg {
       width: 32px;
       height: 32px;
     }
+  }
   
     >.menu {
       display: flex;

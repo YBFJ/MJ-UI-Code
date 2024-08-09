@@ -1,13 +1,18 @@
 # 介绍
 MJ UI 是一款基于 Vue 3 和 TypeScript 的 UI 组件库。
+<br/>
 这款组件库其实是我为了练手，尝试Vue3，以及归纳整理各种基础组件而写的，全程亲手编写，尽量不采用第三方库，包括官网也几乎都是我自己写的。
+<br/>
 所以强烈不建议你将此 UI 库用于生产环境。但如果你是抱着看源代码的目的来的，那么这个库还是值得一看的。源代码放在了 [GitHub](https://github.com/YBFJ/MJ-UI-Code)。你也可以直接查看每个组件的源代码和示例，运行方法见 README.md。
+<br/>
 后续更多组件正在添加中，例如返回顶部、顶部进度条、滚动时固定顶部、懒加载、预加载、下拉刷新、上拉加载、日历等。以是否能造成轮子去衡量自己的开发和学习水平，带着问题去写代码。
+<br/>
 本次尝试Vue3和Vite感受到了很多惊喜，因为自己日常工作中主要是React，这次体验到了Vite的快，以及Vue3在很多信息关联的时候的贴心。后续想做一个Vue和React类似功能的方法的对比和详解，会放在我的[掘金文章](https://juejin.cn/user/571401779031678/posts)中。
+<br/>
 目前对Vue3想深入了解的目标如下：
 
-- v-modle update:modelValue
-- setup
-- Teleport
-
+* v-modle update:modelValue
+* setup
+* Teleport
+<br/>
 下一节：[安装](#/doc/install)
